@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "player_dead",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.4,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b15490b9-074c-46ea-b218-9df49ae1f595"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "db6dfe02-ee61-4bcc-810b-6592c8196a8a"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "b221fa97-200f-4c5b-a91e-86254c73a8a0"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "84314cf1-562d-4c6b-8e56-2e94c37522b3"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "0ad0e791-1212-4262-94cd-6ae0aa039c56"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "04a5b160-ff1f-421a-921f-824d2282d93b"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "b15490b9-074c-46ea-b218-9df49ae1f595"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.2,
+      "func": "deadCallBack",
+      "params": []
+    }
+  ]
+}

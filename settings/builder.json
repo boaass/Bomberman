@@ -1,0 +1,37 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "startScene": "f6fc3af2-e87b-4a01-a325-7ff0025b85c5",
+  "title": "rabbit",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx266cc8851f6c35b4",
+    "orientation": "landscape"
+  },
+  "xxteaKey": "50fabc75-e10e-42",
+  "zipCompressJs": true
+}

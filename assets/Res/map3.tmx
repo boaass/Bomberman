@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="32" tileheight="32" nextobjectid="10">
+ <tileset firstgid="1" name="map" tilewidth="32" tileheight="32" tilecount="8" columns="4">
+  <image source="map.png" width="128" height="64"/>
+ </tileset>
+ <layer name="ground" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPCgxAALUAWo=
+  </data>
+ </layer>
+ <layer name="hide" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+YAViNiBmB2IOIGahgR2jYBSMglEwEgAApBQAHw==
+  </data>
+ </layer>
+ <layer name="main" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYKYipgZANosa9Ki7Rt016q5Rd9HbXdTCAIfAAZk=
+  </data>
+ </layer>
+ <layer name="soil" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+YMKCR8EoGAWjYBSQDgA6dAAL
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="7" name="player" x="32" y="32" visible="0"/>
+  <object id="8" name="enemy" x="32" y="544" visible="0"/>
+ </objectgroup>
+</map>
